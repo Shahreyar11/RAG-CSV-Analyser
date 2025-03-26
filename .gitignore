@@ -1,0 +1,50 @@
+# Byte-compiled / cached
+__pycache__/
+*.py[cod]
+*.swp
+*.swo
+
+# Virtual environment
+venv/
+env/
+.venv/
+.env/
+
+# Logs and database
+logs/
+*.log
+*.sqlite3
+*.db
+
+# Secrets and environment variables
+.env
+config.json
+secrets.json
+
+# Python dependencies
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VS Code & PyCharm settings
+.vscode/
+.idea/
+
+# Hugging Face cache (if using transformers)
+~/.cache/huggingface/
+transformers_cache/
+
+# Pip cache
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Node modules (if frontend uses JS)
+node_modules/
+
+# Render/Heroku deployment
+*.tar.gz
+*.whl
+Procfile
