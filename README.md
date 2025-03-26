@@ -1,7 +1,7 @@
-<h1>AI Project - README</h1>
+<h1>RAG-CSV-AI Project - README</h1>
 
 <h2>Overview</h2>
-<p>This project is an AI-based application using the <strong>Mistral-7B-Instruct</strong> model. It is designed to handle text generation tasks efficiently. The goal is to provide meaningful AI-generated responses while integrating an intuitive UI.</p>
+<p>This project is an AI-based application using the <strong>MiniLM-L6-v2</strong> model. It is designed to handle text generation tasks efficiently. The goal is to provide meaningful AI-generated responses from any CSV based file while integrating an intuitive UI.</p>
 
 <h2>Images</h2>
 
@@ -21,9 +21,8 @@
 
 <h2>Installation</h2>
 <pre>
-pip install transformers huggingface_hub
-huggingface-cli login
-python main.py
+Install all the necessary libraries given in the Requirements.txt file. 
+    Clone the repository to your local computer and run "uvicorn main:app --reload" in one terminal and in another terminal run "streamlit run streamlit_app.py" for the UI from Streamlit part.
 </pre>
 
 <h2>Usage</h2>
@@ -36,8 +35,11 @@ print(result)
 
 <h2>My Points</h2>
 <ul>
-    <li>Need to improve AI responses</li>
+    <li>It helps in Generating important data or specific data from any CSv files.</li>
     <li>Optimize model for better performance</li>
-    <li>Enhance UI to make interaction smoother</li>
+    <li>Good Streamlit UI makes good approach and better workflow</li>
     <li>Test different models for better accuracy</li>
 </ul>
+
+<h3> My Points: </h3>
+<p> Hi, So I am Shahreyar I got this Project as an assignment by the Simplify Money, and I read the pdf file which contains 3 projects to choose from. No doubt all three projects seemed to be the best approach to newer project and new learning. Since I had developed apps in Android and not in React Native I chose this Python backend Projects as backend always fascinates me and though I was new to RAG, LLM, FASTAPI it seemed good option to explore this backend project to learn more.\n Moreover I genuinely didn't know how to proceed and have never created this big project though I have created in other aspects but not for the backend so I directly went to AI tools to get the overview of the project, I learned something new and finding out different things on stackoverflow on youtube on chat gpt from learning what is FASTAPI to watching videos of how to upload csv files using FASTAPI and honestly taking helps from AI tools I came up finally with this. Yes I know the LLM didn't worked well as I never used that and honestly I tried from finding it it was little bit harder for me to implement in such short time but still I managaed to use this mini LLM to generate answers based on CSV files. The project was really good, I learned a lot as I was having some issues on how to proceed learning backend development but Now I found out learning by doing is a great thing and this project taught me on where do I lag in concepts and which concepts do I have to make more stronger in order to become more efficient and good programmer.\n So Yes that was all and I hope this you will find this project well.</p>
